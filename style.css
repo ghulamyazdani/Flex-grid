@@ -1,0 +1,75 @@
+.brand{
+    text-align:center;
+    font-family: 'Allison', cursive;
+    font-weight: normal;
+    font-size: 60px;
+    margin-top: 60px;
+
+}
+
+.story{
+    border: 1px solid #000000;
+    padding:5px;
+}
+.row{
+    display: flex;
+    align-items: stretch;
+
+}
+.story-text{
+    line-height: 1.5;
+    font-size: 18px;
+}
+.story-title{
+    font-weight: normal;
+    font-style: italic;
+    font-size: 30px;
+    margin: 15px 0;
+    text-align: center;
+}
+.half{
+    width: 50%; 
+}
+.story-image{
+    width: 100%;
+}
+.quarter{
+    width: 25%;
+}
+.three-quarter{
+    width:75%;
+
+}
+.nav-list{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.nav-item{
+    width: 100%;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+    font-size:25px;
+    font-weight: bold;
+    color: #777;
+    font-family: arial,sans-serif;
+}
+.nav-item:nth-child(1){
+    background-color: aquamarine;
+}
+.nav-item:nth-child(2){
+    background-color: rgb(224, 195, 115);
+}
+.nav-item:nth-child(3){
+    background-color: rgb(111, 247, 145);
+}
+.nav-item:nth-child(4){
+    background-color: rgb(122, 144, 243);
+}
+.nav-item:nth-child(5){
+    background-color:aqua;
+}
